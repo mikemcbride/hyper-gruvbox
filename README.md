@@ -1,18 +1,21 @@
 # Hyper Gruvbox
 
-[Hyper](https://hyper.is) theme based on [gruvbox](https://github.com/gruvbox-community/gruvbox).
+[Hyper](https://hyper.is) theme based on [gruvbox](https://github.com/gruvbox-community/gruvbox). There's another gruvbox theme for Hyper but I prefer some of the style choices I made, such as the tab styles.
 
 ### Install
 
-1. Open Hyper's preferences with `Cmd + ,` (or manually at `~/.hyper.js`) with your editor.
-2. Update your list of plugins to include `hyper-gruvbox`, like so:
+Unlike most hyper plugins, I'm not planning on publishing this one. For one, there's already an existing theme like I mentioned above. This is mostly for my own use. That being said, here's how you can use it:
+
+1. Clone (or fork) the repo and get it on your local machine.
+1. Symlink the folder (or clone it directly into) your local hyper plugins folder (probably `~/.hyper_plugins/local`)
+1. Add it as a local plugin:
 
   ```js
-plugins: [
-      'hyper-gruvbox'
+localPlugins: [
+  'hyper-gruvbox'
 ],
 ```
-3. Fully reload Hyper (`Cmd+Shift+R`), and tada! :tada:
+4. Fully reload Hyper (`Cmd+Shift+R`) or quit and re-open.
 
 ### License
 
