@@ -1,0 +1,20 @@
+{
+  "name": "hyper-gruvbox",
+  "version": "1.0.0",
+  "description": "Gruvbox theme for Hyper",
+  "main": "index.js",
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "colors"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemcbride/hyper-gruvbox.git"
+  },
+  "author": "mikemcbride",
+  "license": "MIT"
+}
