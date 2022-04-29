@@ -12,7 +12,7 @@ Unlike most hyper plugins, I'm not planning on publishing this one. For one, the
 
   ```js
 localPlugins: [
-  'hyper-gruvbox'
+      'hyper-gruvbox'
 ],
 ```
 4. Fully reload Hyper (`Cmd+Shift+R`) or quit and re-open.
